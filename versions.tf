@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organisation ="vxsan"
+    organization ="vxsan"
 
     workspaces {
       name = "terraform-hcloud-kube"
