@@ -1,4 +1,12 @@
 terraform {
+
+  cloud {
+    organisation ="vxsan"
+
+    workspaces {
+      name = "terraform-hcloud-kube"
+    }
+  }
   required_version = ">= 1.2.0"
   required_providers {
     github = {
